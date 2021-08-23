@@ -52,3 +52,9 @@ label {
 #buttons button:focus {
 	outline: none;
 }
+
+
+/* Activate button */
+#buttons button.Button__background-color_light-green {
+	background-color: lightgreen;
+}
