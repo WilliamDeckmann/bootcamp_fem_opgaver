@@ -1,0 +1,52 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: Verdana;
+	font-size: 13px;
+	margin: 20px;
+}
+
+.Produkt-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Produkt-container__navn {
+	margin: 20px 0px;
+}
+
+.Produkt-container__pris {
+	margin: 20px 0px;
+}
+
+.Produkt-container__pris_theme_bleg-groen {
+	color: lightgreen
+}
+
+.Button-container__counter {
+	margin-bottom: 20px;
+}
+
+.Button-container__increase-button {
+	margin-bottom: 20px;
+}
+.Button-container__decrease-button {
+	margin-bottom: 20px;
+}
+
+.Button-container {
+    width: 100px;
+	display: flex;
+    justify-content: space-between;
+}
+
+.Button-container .Button-container__increase-button, .Button-container .Button-container__decrease-button {
+	width: 30px;
+	height: 30px;
+	background-color: #eee;
+	border: 1px solid #aaa;
+	border-radius: 5px;
+}
