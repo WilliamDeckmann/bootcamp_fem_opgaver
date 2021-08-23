@@ -3,8 +3,15 @@ document.addEventListener("DOMContentLoaded", () => {
     // Element variables
     const buttonElement = document.querySelector("#my-button");
 
-    buttonElement.addEventListener("click", () => {
+    // Toggle color on button click
+    function toggleColor() {
 
-        buttonElement.classList.toggle("my-button__color_red");
-    });
+        buttonElement.addEventListener("click", () => {
+    
+            buttonElement.classList.toggle("my-button__color_red");
+        });
+    };
+
+    // Initiator
+    toggleColor();
 });
