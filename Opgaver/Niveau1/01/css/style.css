@@ -51,3 +51,13 @@ label {
 #my-button:focus {
 	outline: none;
 }
+
+
+/* Button color states */
+#my-button.my-button__color_blue {
+	background-color: blue;
+}
+
+#my-button.my-button__color_red {
+	background-color: red;
+}
