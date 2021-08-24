@@ -26,9 +26,16 @@ body {
 	color: lightgreen
 }
 
+.Button-container {
+	width: 100px;
+	display: flex;
+	justify-content: space-between;
+}
+
 .Button-container__counter {
 	margin-bottom: 20px;
 }
+
 
 .Button-container__increase-button {
 	margin-bottom: 20px;
@@ -37,16 +44,14 @@ body {
 	margin-bottom: 20px;
 }
 
-.Button-container {
-    width: 100px;
-	display: flex;
-    justify-content: space-between;
-}
-
 .Button-container .Button-container__increase-button, .Button-container .Button-container__decrease-button {
 	width: 30px;
 	height: 30px;
 	background-color: #eee;
 	border: 1px solid #aaa;
 	border-radius: 5px;
+}
+
+.Button-container__samlet-pris {
+	margin-bottom: 20px;
 }
