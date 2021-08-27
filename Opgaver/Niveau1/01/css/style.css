@@ -53,11 +53,14 @@ label {
 }
 
 
-/* Button color states */
+/* --------------------{ Button color states }-------------------- */
+
+/* Blue */
 #my-button.my-button__color_blue {
 	background-color: blue;
 }
 
+/* Red */
 #my-button.my-button__color_red {
 	background-color: red;
 }
